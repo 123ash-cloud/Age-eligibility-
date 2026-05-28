@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+class  knowYourAgeCalculation {
+
+    public static void main (String [] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print(" please enter the year your born: ");
+        int Year= in.nextInt();
+
+        int number = 2026;
+        int Calculation = number - Year;
+              System.out.print(" the user is age ");
+              System.out.println(Calculation);
+    }
+}
